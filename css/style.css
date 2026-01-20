@@ -1,13 +1,48 @@
-body {
-  background:#0F172A;
-  color:white;
-  font-family:Arial;
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.logo { color:#22C55E; }
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
 
-.burger { display:none; }
+/* HEADER */
+header {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
 
-@media (max-width:800px) {
-  .burger { display:block; }
+header h1 {
+  color: #22c55e;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #93c5fd;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* GŁÓWNY UKŁAD */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* STOPKA */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+  margin-top: 40px;
 }
