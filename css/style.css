@@ -1,0 +1,13 @@
+body {
+  background:#0F172A;
+  color:white;
+  font-family:Arial;
+}
+
+.logo { color:#22C55E; }
+
+.burger { display:none; }
+
+@media (max-width:800px) {
+  .burger { display:block; }
+}
